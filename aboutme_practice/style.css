@@ -1,0 +1,562 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#body-container{
+    min-height: 100vh;
+    width:100%;
+    background-color: white;
+}
+
+#body-container .navbar-container{
+    width:100%;
+    height:100px;
+    background-color: rgb(236, 235, 239);
+   
+}
+
+/* contact-section-styling */
+
+#contact-container .navbar-container{
+    width:100%;
+    height:100px;
+    background-color: rgb(236, 235, 239);
+}
+
+.form-container{
+    text-align: center;
+    margin-top:100px
+}
+
+.form-section label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 296px;
+    font-size:16px;
+    font-weight: lighter;
+   
+}
+
+.form-section .input-box label{
+    margin-right: 290px
+}
+
+.form-section .input-one input[type="text"]{
+    margin-bottom:20px;
+    border:1px solid rgb(182, 182, 169);
+    width:25%;
+    font-size:21px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.form-section .dropdown select{
+    padding: 10px;
+    font-size:12px;
+    margin-bottom:20px;
+    border:1px solid rgb(182, 182, 169);
+    width:25%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.btn-section .btn a{
+    text-decoration: none;
+    color:black;
+}
+
+.btn-section .btn a:link, a:visited {
+    background-image: linear-gradient(to right, #338de7 0%, #89f243 51%, #2eebfc 100%);
+    border: 2px solid whitesmoke;
+    padding: 10px 36px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:0px 12px 0px 12px;
+   
+}
+
+.btn-section .btn a:hover{
+    color:black;
+    background-image:linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+}
+
+.contact-word{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:-60px;
+}
+
+
+.contact-word h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+/* ends here */
+
+/* register styling */
+
+#register-container{
+    background-image:radial-gradient(farthest-corner at 60% 50%, rgb(182, 182, 176,0.9), rgb(123, 173, 239, 0.7),rgb(182, 182, 176,0.9));
+    width:100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size:cover;
+}
+
+#register-container .navbar-container{
+    width:100%;
+    height:100px;
+    background-color: rgb(236, 235, 239);
+}
+
+.regis{
+    text-align:center;
+    margin-top:40px;
+}
+
+.regis h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    color:rgb(44, 46, 43);
+    line-height: 0.2em;
+    text-decoration-line: underline;
+    
+}
+
+.regis-form-container{
+    margin:0 auto;
+    margin-top:50px;
+    width:1000px;
+    height:500px;
+ 
+}
+
+.regis-form{
+    padding:30px;
+    padding-left: 150px;
+
+}
+
+/*.regis-form .one{
+    margin-top:20px;
+    padding-right:20px;
+    display:flex;
+    justify-content: space-between;
+}*/
+
+.regis-form .one{
+    display: flex;
+    justify-content:space-between;
+     width: 100%;
+}
+
+.regis-form .one .flex-1{
+    width:100%;
+}
+
+.regis-form .one .usname{
+    width:50%;
+}
+
+.regis-form .one .flex-2{
+    width:100%;
+}
+
+.regis-form-container .regis-form label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.regis-form-container .regis-form input[type="text"]{
+    margin-bottom:20px;
+    border:1px solid rgb(182, 182, 169);
+    width:75%;
+    font-size:17px;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.regis-form-container .regis-form input[type="number"]{
+    margin-bottom:20px;
+    border:1px solid rgb(182, 182, 169);
+    width:75%;
+    font-size:17px;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.regis-form-container .regis-form input[type="password"]{
+    margin-bottom:20px;
+    border:1px solid rgb(182, 182, 169);
+    width:75%;
+    font-size:17px;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.regis-form-container .regis-form input[type="radio"]{
+    margin-bottom:20px;
+    font-size:17px;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+/* ends here */
+
+/* login styling */
+
+#login-container .navbar-container{
+    width:100%;
+    height:100px;
+    background-color: rgb(236, 235, 239);
+}
+
+.container{
+    background-image:linear-gradient(to right, rgb(175, 170, 170), rgb(5, 5, 5));
+    height:613px;
+    width:100%;
+    text-align: center;
+   
+   
+}
+
+.container .whole-container{
+    display: flex;
+    justify-content:center;
+    width:700px;
+    height:500px;
+    justify-items: center;
+    padding-top: 50px;
+    margin:auto;
+    
+}
+
+.container .whole-container .sign-in-container{
+    width:400px;
+    height:490px;
+    border-radius: 18px 0px 0px 18px;
+    padding:100px;
+    background-color: rgb(55, 52, 52);
+}
+
+.container .whole-container .sign-in-container a{
+    text-decoration: none;
+    color:black;
+}
+
+.sign-in-container .botton-section .btn a{
+    background-image: linear-gradient(to right, #338de7 0%, #edf1f2 100%);
+    padding: 10px 36px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:12px;
+}
+
+.container .whole-container .title-section-container{
+    width:400px;
+    height:490px;
+    border-radius: 0px 18px 18px 0px;
+    padding:100px;
+    background-color: rgba(29, 25, 25, 0.945);
+}
+
+.title-section-container .centralized input[type="text"]{
+    width:150px;
+    padding:6px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.title-section-container .centralized input[type="password"]{
+    width:150px;
+    padding:6px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.sign-in-container .botton-section{
+    margin-top:130px;
+}
+
+.title-section-container .centralized{
+    margin-top:110px;
+}
+/* ends here */
+
+/* calculator-styling */
+
+#calculator-container .navbar-container{
+    width:100%;
+    height:100px;
+    background-color: rgb(236, 235, 239);
+}
+
+.guilding-border{
+    background-image:linear-gradient(to right, rgb(175, 170, 170), rgb(5, 5, 5));
+    width:100%;
+    height:100vh;
+    padding-top:40px;
+}
+
+.guilding-border .body-calc{
+    /*display: flex;
+    justify-content:center;*/
+    width:500px;
+    height:610px;
+    justify-items: center;
+    padding:40px;
+    margin:auto;
+    background-color:  rgb(104, 102, 102);
+    border-radius: 18px;
+    
+}
+
+.body-calc .screen{
+    width:420px;
+    height:60px;
+    background-color:#edf1f2;
+    border-radius:10px;
+}
+
+.body-calc .screen h2{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+.space h2{
+    margin-top:10px; 
+    
+}
+
+.space h2:nth-child(odd){
+    font-weight:900;
+}
+
+.characters .flex-arrangement{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+
+.flex-arrangement .circle{
+    width:70px;
+    height:60px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.flex-arrangement .circle h4{
+    text-align: center;
+}
+
+.characterone .flex-arrangement{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+
+.charactertwo .flex-arrangement{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+
+.characterthree .flex-arrangement{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+
+.characterfour .flex-arrangement{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+.flex-arrangement .rectangle{
+    width:150px;
+    height:60px;
+    background-color: rgb(211, 126, 15);
+    border-radius: 12px;
+}
+
+.flex-arrangement .rectangle h4{
+    text-align:center
+}
+
+.cal a{
+    text-decoration: none;
+    color:rgb(4, 127, 16);
+}
+
+.cal a:hover{
+    color:aqua;
+}
+
+.cal{
+    margin-top:20px;
+}
+
+.flex-arrangement .rectangle:hover{
+    background-color: #338de7;
+}
+
+.flex-arrangement .circle:hover{
+    background-color: #338de7;
+}
+/* ends here */
+
+
+.navbar-container .logo h1{
+    font-family:'Courier New', Courier, monospace;
+    margin-left:30px;
+   
+}
+
+.logo h1::first-letter{
+    font-size:70px;
+    font-weight:bolder;
+    color:blue;
+}
+
+.navbar-container .navbar-links ul{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:-40px;
+    
+}
+
+.navbar-container .navbar-links a{
+    text-decoration: none;
+    color:black;
+}
+
+.navbar-container .navbar-links li{
+    list-style: none;
+    margin-right:35px;
+    
+}
+
+.navbar-container .navbar-links li:hover{
+    color:rgb(124, 111, 83);
+    text-decoration: underline 2px solid black;
+}
+
+.about{
+    padding:100px;
+    min-height:100vh;
+    text-align: center;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.about .left-page{
+    width:60%;
+}
+
+.about .right-page{
+    width:30%;
+}
+
+.left-page .highlight{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.left-page p{
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size:25px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.spacing h4{
+    margin-bottom:30px;
+}
+
+.listone{
+    padding:0 270px;
+}
+
+.listone li{
+    margin-top:10px;
+}
+
+.listtwo{
+    padding:0 270px;
+}
+
+.listhree li{
+    list-style-type: none;
+}
+
+.left-right{
+    display:flex;
+    justify-content:space-between;
+    width:70%;
+}
+
+.left-right .left{
+    width:32%
+}
+
+.left-right .left{
+    margin-left:170px;
+}
+
+.left-right .right{
+    width:32%
+}
+
+.line2{
+    border:0.6px solid black;
+    width:0.4px;
+    height:70px;
+    margin-top:14px;
+}
+
+label{
+    font-size: 20px;
+    font-weight:bolder;
+    font-family:cursive;
+}
+
+
+.left-page article{
+    padding:0px 180px;
+}
+
+.left-page article p{
+ font-family: Manrope;
+ font-size: 15px;
+ font-weight: 200;
+ line-height: 32px;
+ letter-spacing: 0em;
+
+}
+
+.line{
+    border:1px solid black;
+    width:0.8px;
+    height:600px;
+    margin-top:50px;
+}
+
+.right-page{
+    margin-top:250px;
+}
+
+.image-section img{
+    width:250px;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    border-radius:50%;
+}
